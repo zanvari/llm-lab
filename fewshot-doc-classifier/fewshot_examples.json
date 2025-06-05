@@ -1,0 +1,22 @@
+[
+  {
+    "text": "This document is an agreement between two parties regarding software services.",
+    "label": "contract"
+  },
+  {
+    "text": "Invoice No: 12345. Amount due: $500. Due Date: July 1, 2024.",
+    "label": "invoice"
+  },
+  {
+    "text": "Name: John Smith. Medical diagnosis: Hypertension. Treatment: Medication.",
+    "label": "medical_report"
+  },
+  {
+    "text": "Dear Mr. Johnson, Please find attached the proposal for your review.",
+    "label": "letter"
+  },
+  {
+    "text": "Claim ID: 78910. Policy Number: XZ-456. Claimed amount: $2000.",
+    "label": "insurance_form"
+  }
+]
