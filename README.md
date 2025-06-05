@@ -24,11 +24,11 @@ RAG-based QA system for healthcare claims and clinical documents.
 - 🔍 SentenceTransformer/FAISS retrieval
 - 🤖 GPT-3.5/GPT-4 answers with citations
 
-### 🧾 `kv-extraction-funsd` *(Planned)*
-Key-value pair extraction from forms using LayoutLM or Donut models.
-- 🖼️ FUNSD dataset for training
-- 📚 Transformers for layout-aware extraction
-- 📊 Eval using precision, recall, F1
+### 🧾 [`kv-extraction-funsd`](./kv-extraction-funsd)
+Key-value extraction from scanned forms using LayoutLM and Donut on the FUNSD dataset.
+- 🧠 Layout-aware transformer models
+- 🗂️ OCR + visual layout preprocessing
+- 📊 Evaluation using precision, recall, F1
 
 ### 🧠 `llama-finetune-colab` *(Planned)*
 Google Colab notebook to fine-tune LLaMA2 with PEFT and LoRA.
