@@ -24,8 +24,8 @@ python app.py
 ```
 
 ## 📘 Notebook
-- [rag-doc-qa.ipynb](./rag-doc-qa.ipynb) – Full walkthrough with embeddings, retrievers, and LLMs
-- 🟢 [Open in Colab](https://colab.research.google.com/github/zanvari/llm-lab/blob/main/rag-doc-qa/rag-doc-qa.ipynb)
+- [rag-doc-qa-explained.ipynb](./rag-doc-qa-explained.ipynb) – Full walkthrough with markdown explanations, embeddings, retrievers, and LLMs
+- 🟢 [Open in Colab](https://colab.research.google.com/github/zanvari/llm-lab/blob/main/rag-doc-qa/rag-doc-qa-explained.ipynb)
 
 ## ✅ Example
 ```
