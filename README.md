@@ -12,11 +12,17 @@ Perform question answering over PDF documents using LangChain, FAISS, and GPT-4.
 - 📄 Supports any local PDF
 - 🤖 GPT-4 integration for QA
 
-### 🧷 [`fewshot-document-classifier`](./fewshot-doc-classifier)
+### 🧷 [`fewshot-doc-classifier`](./fewshot-doc-classifier)
 Classify documents using zero-shot or few-shot prompting with OpenAI or open-source LLMs.
 - 🔢 Multi-class document classification
 - 🧠 Few-shot prompt templates
 - 🧪 Comparison with fine-tuned classifiers
+
+### 🏥 [`rag-healthcare`](./rag-healthcare)
+RAG-based QA system for healthcare claims and clinical documents.
+- 📄 QA over patient records, insurance forms
+- 🔍 SentenceTransformer/FAISS retrieval
+- 🤖 GPT-3.5/GPT-4 answers with citations
 
 ### 🧾 `kv-extraction-funsd` *(Planned)*
 Key-value pair extraction from forms using LayoutLM or Donut models.
