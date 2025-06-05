@@ -1,6 +1,10 @@
+streamlit
 langchain
 openai
 faiss-cpu
 tiktoken
 PyPDF2
-
+chromadb
+python-dotenv
+sentence-transformers
+transformers
