@@ -24,7 +24,7 @@ RAG-based QA system for healthcare claims and clinical documents.
 - 🔍 SentenceTransformer/FAISS retrieval
 - 🤖 GPT-3.5/GPT-4 answers with citations
 
-### 🧾 `kv-extraction-funsd` *(Planned)*
+### 🧾 [`kv-extraction-funsd`] (./kv-extraction-funsd)
 Key-value pair extraction from forms using LayoutLM or Donut models.
 - 🖼️ FUNSD dataset for training
 - 📚 Transformers for layout-aware extraction
