@@ -1,0 +1,22 @@
+[
+  {
+    "question": "Who is the policyholder?",
+    "expected_answer": "Emily R. Smith"
+  },
+  {
+    "question": "What diagnosis was listed?",
+    "expected_answer": "Type 2 Diabetes Mellitus with complications"
+  },
+  {
+    "question": "What medications were prescribed?",
+    "expected_answer": "Metformin 500mg, Lisinopril 10mg"
+  },
+  {
+    "question": "What is the claim ID?",
+    "expected_answer": "CL-2024-001937"
+  },
+  {
+    "question": "When was the claim submitted?",
+    "expected_answer": "May 15, 2024"
+  }
+]
