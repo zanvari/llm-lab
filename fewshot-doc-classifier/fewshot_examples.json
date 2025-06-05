@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
   {
     "text": "This document is an agreement between two parties regarding software services.",
@@ -20,3 +21,19 @@
     "label": "insurance_form"
   }
 ]
+=======
+[
+  {
+    "text": "This document is an agreement between two parties regarding software services.",
+    "label": "contract"
+  },
+  {
+    "text": "Invoice No: 12345. Amount due: $500. Due Date: July 1, 2024.",
+    "label": "invoice"
+  },
+  {
+    "text": "Claim ID: 78910. Policy Number: XZ-456. Claimed amount: $2000.",
+    "label": "insurance_form"
+  }
+]
+>>>>>>> 316f34d8ef82d87be8f7877f2a89396ab63641a6
