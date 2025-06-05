@@ -1,0 +1,8 @@
+transformers
+datasets
+torch
+layoutparser
+opencv-python
+Pillow
+seqeval
+scikit-learn
