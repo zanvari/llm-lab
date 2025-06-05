@@ -12,7 +12,7 @@ Perform question answering over PDF documents using LangChain, FAISS, and GPT-4.
 - 📄 Supports any local PDF
 - 🤖 GPT-4 integration for QA
 
-### 🧷 [`fewshot-doc-classifier`](./fewshot-doc-classifier)
+### 🧷 [`fewshot-document-classifier`](./fewshot-doc-classifier)
 Classify documents using zero-shot or few-shot prompting with OpenAI or open-source LLMs.
 - 🔢 Multi-class document classification
 - 🧠 Few-shot prompt templates
