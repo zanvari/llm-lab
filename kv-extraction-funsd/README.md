@@ -1,36 +1,31 @@
-# 🧾 Key-Value Extraction — FUNSD
+# 🧾 Key-Value Extraction with LayoutLM
 
-This project focuses on extracting key-value pairs from scanned forms using layout-aware models like **LayoutLM** and **Donut**.
+This project demonstrates how to preprocess the FUNSD dataset and fine-tune the LayoutLM model to extract key-value pairs from form-like documents.
 
-## 📄 Dataset
+## 📚 Highlights
 
-We use the [FUNSD](https://guillaumejaume.github.io/FUNSD/) dataset, a benchmark for form understanding with:
-- Text annotations
-- Bounding boxes
-- Entities (key, value, other)
-- Links between keys and their corresponding values
+- ✅ Preprocessing for FUNSD annotations
+- ✅ Normalized bounding boxes
+- ✅ HuggingFace-compatible `Dataset` class
+- ✅ Fine-tuning `LayoutLM` with `Trainer`
+- ✅ Inference + bounding box visualization
 
-## 🤖 Models
+## 🧪 Dataset
 
-- 📐 **LayoutLMv2** (transformers-based)
-- 🧠 **Donut** (Vision Transformer-based, no OCR needed)
+This uses the [FUNSD dataset](https://guillaumejaume.github.io/FUNSD/) which contains scanned forms annotated with fields like "question", "answer", and "other".
 
-## 🛠️ Tasks
+## 📦 Setup
 
-- Preprocess FUNSD annotations
-- Visualize layout structure
-- Train/test LayoutLM and Donut
-- Evaluate precision, recall, F1 on key-value pairs
+```bash
+pip install -r requirements.txt
+```
 
-## 📁 Structure
+## 🚀 Run
 
-- `data/` — FUNSD raw + processed files
-- `models/` — Saved checkpoints
-- `outputs/` — Inference outputs
-- `notebooks/` — Analysis + visualization
+1. Preprocess samples with `data_preprocessing.py`
+2. Fine-tune the model using `layoutlm_funsd.ipynb`
+3. Visualize predictions with bounding boxes
 
-## ✅ Goals
+## 🧠 Model
 
-- Compare layout-aware models for form understanding
-- Build a portable and reusable pipeline for KV extraction
-
+Uses `microsoft/layoutlm-base-uncased` from HuggingFace.

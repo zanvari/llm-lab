@@ -1,8 +1,8 @@
-transformers
+transformers>=4.30.0
 datasets
-torch
+seqeval
 layoutparser
 opencv-python
 Pillow
-seqeval
 scikit-learn
+torch
