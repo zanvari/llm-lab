@@ -8,6 +8,12 @@ Welcome to `llm-lab` — a curated collection of projects, experiments, and rese
 ---
 
 ## 🚀 Projects
+### 🧪 [`prompt-playground`](./prompt-playground)
+Experiment with zero-shot, few-shot, and CoT prompts across LLMs.
+- 🔹 Prompt variations
+- 🤖 Compare OpenAI, Mistral, LLaMA
+- 📝 Output logging
+
 ### 🧠 [`bert-topic-modeling`](./bert-topic-modeling)
 Cluster documents using Sentence-BERT embeddings and extract topics with KeyBERT.
 - 🔍 HDBSCAN clustering
