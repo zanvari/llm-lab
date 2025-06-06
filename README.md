@@ -8,6 +8,12 @@ Welcome to `llm-lab` — a curated collection of projects, experiments, and rese
 ---
 
 ## 🚀 Projects
+### 📚 [`summarization-benchmark`](./summarization-benchmark)
+Compare extractive (TextRank) and abstractive (FLAN-T5) summarization.
+- ✂️ Extractive with spaCy + pytextrank
+- 🧠 Abstractive via HuggingFace
+- 📏 ROUGE-based evaluation
+
 ### 🧪 [`prompt-playground`](./prompt-playground)
 Experiment with zero-shot, few-shot, and CoT prompts across LLMs.
 - 🔹 Prompt variations
