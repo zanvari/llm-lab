@@ -1,0 +1,20 @@
+[
+  {
+    "id": "classification_zero_shot",
+    "task": "Classify the following text as Positive, Neutral, or Negative:",
+    "input": "The product was amazing and exceeded expectations.",
+    "type": "zero-shot"
+  },
+  {
+    "id": "classification_few_shot",
+    "task": "Classify sentiment. Examples:\n- I love it -> Positive\n- It's okay -> Neutral\n- I hate it -> Negative\n\nInput:",
+    "input": "The experience was not enjoyable at all.",
+    "type": "few-shot"
+  },
+  {
+    "id": "cot_math_reasoning",
+    "task": "Solve the math problem step by step: ",
+    "input": "If you have 3 apples and eat 1, how many are left?",
+    "type": "chain-of-thought"
+  }
+]
