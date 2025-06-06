@@ -35,6 +35,12 @@ Fine-tune BERT on the SQuAD dataset for extractive question answering.
 - 🧠 Train `BertForQuestionAnswering`
 - 🔍 Inference on custom questions
 
+### 🔗 [`bert-sentence-similarity`](./bert-sentence-similarity)
+Fine-tune BERT to score similarity between sentence pairs using STS-B.
+- 🧠 Regression with cosine/logit-based similarity
+- 📊 Pearson and Spearman evaluation
+- ✅ Inference + batch prediction scripts
+
 ### 🧠 `llama-finetune-colab` *(Planned)*
 Google Colab notebook to fine-tune LLaMA2 with PEFT and LoRA.
 - 🔧 HuggingFace + PEFT
