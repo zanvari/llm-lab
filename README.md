@@ -65,3 +65,42 @@ Made with 🧠 by [Zahra Anvari](https://github.com/zanvari)
 
 ## 📄 License
 MIT
+
+
+## 🧠 BERT Projects
+
+### 📝 [`bert-text-classifier`](./bert-text-classifier)
+Fine-tune BERT on text classification tasks with training, evaluation, and visualization.
+- 🔢 Multi-class text classification
+- 📊 Confusion matrix and metrics
+- 🔁 Compare BERT, DistilBERT, RoBERTa
+
+### 🏷️ [`bert-ner-finetune`](./bert-ner-finetune)
+Train BERT for Named Entity Recognition (NER) using token classification.
+- 🧾 CoNLL-style NER tasks
+- 🔍 Visualize token predictions
+- 🧪 Includes training and inference scripts
+
+### 📚 [`bert-qa-squad`](./bert-qa-squad)
+Fine-tune BERT on extractive QA with the SQuAD dataset.
+- ❓ Question-answering with context
+- 📈 EM/F1 metrics and batch inference
+- 🕒 Inference time benchmarking
+
+### 🔍 [`bert-semantic-search`](./bert-semantic-search)
+Build a semantic search engine using Sentence-BERT and FAISS.
+- 🧠 Dense embeddings with `sentence-transformers`
+- ⚡ FAISS for fast vector search
+- 📄 Notebook + script interface
+
+### 🧷 [`bert-multilabel-classifier`](./bert-multilabel-classifier)
+Multi-label classification using BERT with sigmoid activation.
+- 🔢 Supports multiple labels per sample
+- 📈 Precision, recall, F1
+- 📊 Per-label analysis and visualizations
+
+### 🧠 [`bert-sentence-similarity`](./bert-sentence-similarity)
+Compare semantic similarity between sentence pairs using BERT.
+- 🧪 Cosine similarity of embeddings
+- 🔁 Pairwise and batched evaluation
+- 🧠 Useful for clustering, deduplication
