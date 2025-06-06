@@ -19,17 +19,21 @@ Classify documents using zero-shot or few-shot prompting with OpenAI or open-sou
 - 🧪 Comparison with fine-tuned classifiers
 
 ### 🧾 [`kv-extraction-funsd`](./kv-extraction-funsd)
-Key-value pair extraction from forms using LayoutLM and Donut models.
+Key-value pair extraction from forms using LayoutLM or Donut models.
 - 🖼️ FUNSD dataset for training
-- 🧠 Layout-aware models: LayoutLM & Donut
+- 📚 Transformers for layout-aware extraction
 - 📊 Eval using precision, recall, F1
 
-### 🧠 [`bert-text-classifier`](./bert-text-classifier)
-Fine-tune BERT on text classification tasks using HuggingFace Transformers.
-- 🧹 Preprocessing with `datasets` and `BertTokenizer`
-- 🏋️ Training with `Trainer` API
-- 📈 Evaluate using accuracy and F1
-- 🔮 Predict on new text samples
+### 🏷️ [`bert-ner-finetune`](./bert-ner-finetune)
+Fine-tune BERT for Named Entity Recognition using the CoNLL-2003 dataset.
+- 🔍 Token-level classification
+- 📊 Evaluate F1 and visualize predictions
+
+### ❓ [`bert-qa-squad`](./bert-qa-squad)
+Fine-tune BERT on the SQuAD dataset for extractive question answering.
+- 📚 Load & preprocess SQuAD v1.1
+- 🧠 Train `BertForQuestionAnswering`
+- 🔍 Inference on custom questions
 
 ### 🧠 `llama-finetune-colab` *(Planned)*
 Google Colab notebook to fine-tune LLaMA2 with PEFT and LoRA.
@@ -51,7 +55,7 @@ Interactive web UI for querying LLMs with memory and custom tools.
 ---
 
 ## 🔧 Stack
-LangChain · OpenAI · HuggingFace · FAISS · Streamlit · PyPDF · Transformers · Colab · LayoutLM · Donut · BERT
+LangChain · OpenAI · HuggingFace · FAISS · Streamlit · PyPDF · Transformers · Colab · LayoutLM
 
 ---
 
