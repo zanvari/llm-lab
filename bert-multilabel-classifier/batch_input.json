@@ -1,0 +1,25 @@
+[
+  {
+    "id": "1",
+    "text": "This legal document contains budget and project timeline.",
+    "labels": [
+      "legal",
+      "project_management"
+    ]
+  },
+  {
+    "id": "2",
+    "text": "Patient insurance and medical records are included.",
+    "labels": [
+      "healthcare",
+      "insurance"
+    ]
+  },
+  {
+    "id": "3",
+    "text": "Annual financial report and investment strategy.",
+    "labels": [
+      "finance"
+    ]
+  }
+]
