@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "sentence1": "A man is playing a guitar.",
+    "sentence2": "Someone is performing music.",
+    "label": 0.9
+  },
+  {
+    "id": "2",
+    "sentence1": "The dog is barking loudly.",
+    "sentence2": "A canine is making noise.",
+    "label": 0.8
+  },
+  {
+    "id": "3",
+    "sentence1": "The sun is shining brightly.",
+    "sentence2": "It is raining heavily.",
+    "label": 0.1
+  }
+]
