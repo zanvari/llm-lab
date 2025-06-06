@@ -8,6 +8,26 @@ Welcome to `llm-lab` — a curated collection of projects, experiments, and rese
 ---
 
 ## 🚀 Projects
+### 🧠 [`bert-topic-modeling`](./bert-topic-modeling)
+Cluster documents using Sentence-BERT embeddings and extract topics with KeyBERT.
+- 🔍 HDBSCAN clustering
+- 🧠 Topic keyword generation
+- 📈 UMAP visualization
+
+
+### 🗂️ [`bert-doc-clustering`](./bert-doc-clustering)
+Cluster documents using Sentence-BERT and visualize with UMAP.
+- 🔢 Embeddings via `sentence-transformers`
+- 🔁 KMeans + Agglomerative clustering
+- 📈 2D UMAP visualization
+
+
+### 🗂️ [`bert-doc-clustering`](./bert-doc-clustering)
+Cluster documents using Sentence-BERT and visualize with UMAP.
+- 🔢 Embeddings via `sentence-transformers`
+- 🔁 KMeans + Agglomerative clustering
+- 📈 2D UMAP visualization
+
 
 ### 📄 [`rag-doc-qa`](./rag-doc-qa)
 Perform question answering over PDF documents using LangChain, FAISS, and GPT-4.
@@ -33,13 +53,41 @@ Key-value pair extraction from forms using LayoutLM and Donut.
 - 📚 Transformers for layout-aware extraction
 - 📊 Eval using precision, recall, F1
 
-## 🧠 BERT Projects
+## 🧠 BERT-Based Projects
+This repo includes multiple projects using BERT and HuggingFace Transformers:
 
-### 🗂️ [`bert-doc-clustering`](./bert-doc-clustering)
-Cluster documents using Sentence-BERT and visualize with UMAP.
-- 🔢 Embeddings via `sentence-transformers`
-- 🔁 KMeans + Agglomerative clustering
-- 📈 2D UMAP visualization
+- 🧾 `bert-text-classifier`
+- 📊 `bert-multilabel-classifier`
+- 🧠 `bert-ner-finetune`
+- 💬 `bert-qa-squad`
+- 🔗 `bert-sentence-similarity`
+- 🔍 `bert-semantic-search`
+- 🧪 `bert-fewshot-classification` *(coming soon)*
+
+---
+
+## 📚 Goals
+- ✅ Build a hands-on portfolio of GenAI/LLM work
+- ✅ Learn and share practical LangChain & vector DB integrations
+- ✅ Explore document intelligence use cases with modern models
+
+---
+
+## 🔧 Stack
+LangChain · OpenAI · HuggingFace · FAISS · Streamlit · PyPDF · Transformers · Colab · LayoutLM
+
+---
+
+## 📬 Contact
+Made with 🧠 by [Zahra Anvari](https://github.com/zanvari)
+
+---
+
+## 📄 License
+MIT
+
+
+## 🧠 BERT Projects
 
 ### 📝 [`bert-text-classifier`](./bert-text-classifier)
 Fine-tune BERT on text classification tasks with training, evaluation, and visualization.
@@ -76,28 +124,3 @@ Compare semantic similarity between sentence pairs using BERT.
 - 🧪 Cosine similarity of embeddings
 - 🔁 Pairwise and batched evaluation
 - 🧠 Useful for clustering, deduplication
-
----
-
-## 📚 Goals
-- ✅ Build a hands-on portfolio of GenAI/LLM work
-- ✅ Learn and share practical LangChain & vector DB integrations
-- ✅ Explore document intelligence use cases with modern models
-
----
-
-## 🔧 Stack
-LangChain · OpenAI · HuggingFace · FAISS · Streamlit · PyPDF · Transformers · Colab · LayoutLM
-
----
-
-## 📬 Contact
-Made with 🧠 by [Zahra Anvari](https://github.com/zanvari)
-
----
-
-## 📄 License
-MIT
-
-
-
