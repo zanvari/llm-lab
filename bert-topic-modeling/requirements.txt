@@ -1,0 +1,7 @@
+sentence-transformers
+keybert
+hdbscan
+umap-learn
+scikit-learn
+matplotlib
+seaborn

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "doc1",
+    "text": "Deep learning is a subset of machine learning focused on neural networks."
+  },
+  {
+    "id": "doc2",
+    "text": "Economic sanctions have impacted the global oil trade and pricing."
+  },
+  {
+    "id": "doc3",
+    "text": "COVID-19 has accelerated digital transformation in healthcare systems."
+  },
+  {
+    "id": "doc4",
+    "text": "Advances in quantum computing could revolutionize cybersecurity."
+  },
+  {
+    "id": "doc5",
+    "text": "Electric vehicles are reducing dependency on fossil fuels."
+  },
+  {
+    "id": "doc6",
+    "text": "Clinical trials show promising results for the new cancer therapy."
+  },
+  {
+    "id": "doc7",
+    "text": "Natural language processing helps automate customer support systems."
+  },
+  {
+    "id": "doc8",
+    "text": "Global inflation rates are rising due to supply chain disruptions."
+  },
+  {
+    "id": "doc9",
+    "text": "AI models are being integrated into financial fraud detection pipelines."
+  },
+  {
+    "id": "doc10",
+    "text": "Wearable health tech devices monitor heart rate and activity in real-time."
+  }
+]
