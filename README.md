@@ -8,6 +8,12 @@ Welcome to `llm-lab` — a curated collection of projects, experiments, and rese
 ---
 
 ## 🚀 Projects
+### 🔐 [`pii-detection`](./pii-detection)
+Detect Personally Identifiable Information (PII) using spaCy NER and LLMs.
+- 🧠 Zero-shot GPT-4 prompting
+- 🤖 Named Entity Recognition
+- 📄 Sample with names, emails, phone numbers
+
 ### 📚 [`summarization-benchmark`](./summarization-benchmark)
 Compare extractive (TextRank) and abstractive (FLAN-T5) summarization.
 - ✂️ Extractive with spaCy + pytextrank
