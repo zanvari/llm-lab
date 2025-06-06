@@ -18,6 +18,22 @@ Classify documents using zero-shot or few-shot prompting with OpenAI or open-sou
 - 🧠 Few-shot prompt templates
 - 🧪 Comparison with fine-tuned classifiers
 
+
+### 🔗 [`bert-sentence-similarity`](./bert-sentence-similarity)
+Fine-tune BERT to score similarity between sentence pairs using STS-B.
+- 🧠 Regression with cosine/logit-based similarity
+- 📊 Pearson and Spearman evaluation
+- ✅ Inference + batch prediction scripts
+
+
+
+### 🧷 [`bert-multilabel-classifier`](./bert-multilabel-classifier)
+Fine-tune BERT to classify documents into multiple categories using sigmoid output.
+- 🧠 Multi-label classification with BCEWithLogits
+- 📦 Supports batch prediction and evaluation
+- 📊 Reports precision, recall, and F1 scores
+
+
 ### 🧾 [`kv-extraction-funsd`](./kv-extraction-funsd)
 Key-value pair extraction from forms using LayoutLM or Donut models.
 - 🖼️ FUNSD dataset for training
@@ -34,12 +50,6 @@ Fine-tune BERT on the SQuAD dataset for extractive question answering.
 - 📚 Load & preprocess SQuAD v1.1
 - 🧠 Train `BertForQuestionAnswering`
 - 🔍 Inference on custom questions
-
-### 🔗 [`bert-sentence-similarity`](./bert-sentence-similarity)
-Fine-tune BERT to score similarity between sentence pairs using STS-B.
-- 🧠 Regression with cosine/logit-based similarity
-- 📊 Pearson and Spearman evaluation
-- ✅ Inference + batch prediction scripts
 
 ### 🧠 `llama-finetune-colab` *(Planned)*
 Google Colab notebook to fine-tune LLaMA2 with PEFT and LoRA.
