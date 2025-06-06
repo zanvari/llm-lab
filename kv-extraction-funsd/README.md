@@ -1,6 +1,6 @@
-# 🧾 Key-Value Extraction with LayoutLM
+# 🧾 Key-Value Extraction with LayoutLM and Donut
 
-This project demonstrates how to preprocess the FUNSD dataset and fine-tune the LayoutLM model to extract key-value pairs from form-like documents.
+This project demonstrates how to preprocess the FUNSD dataset and fine-tune or evaluate layout-aware models like LayoutLM and Donut for extracting key-value pairs from scanned forms.
 
 ## 📚 Highlights
 
@@ -8,24 +8,55 @@ This project demonstrates how to preprocess the FUNSD dataset and fine-tune the 
 - ✅ Normalized bounding boxes
 - ✅ HuggingFace-compatible `Dataset` class
 - ✅ Fine-tuning `LayoutLM` with `Trainer`
+- ✅ Donut inference without OCR
 - ✅ Inference + bounding box visualization
 
 ## 🧪 Dataset
 
-This uses the [FUNSD dataset](https://guillaumejaume.github.io/FUNSD/) which contains scanned forms annotated with fields like "question", "answer", and "other".
+We use the [FUNSD dataset](https://guillaumejaume.github.io/FUNSD/), a benchmark for form understanding with:
+- Text annotations
+- Bounding boxes
+- Entity labels (key, value, other)
+- Links between key-value pairs
 
-## 📦 Setup
+## 🤖 Models
+
+### 📐 LayoutLM
+- Token classification model that uses layout + text
+- Fine-tuned using HuggingFace Trainer
+
+### 🍩 Donut
+- OCR-free vision-to-sequence model
+- Trained for document QA
+- Inference using prompt: "What are the key fields and their values?"
+
+## 🛠️ Structure
+
+```
+kv-extraction-funsd/
+├── data_preprocessing.py
+├── layoutlm_dataset.py
+├── donut_infer.py
+├── requirements.txt
+├── notebooks/
+│   ├── layoutlm_funsd.ipynb
+│   └── donut_inference.ipynb
+```
+
+## 🧪 Run
+
+### LayoutLM
+```bash
+# Train LayoutLM with notebook or script
+```
+
+### Donut Inference
+```bash
+python donut_infer.py --image data/images/0000971160.png
+```
+
+## 🔧 Setup
 
 ```bash
 pip install -r requirements.txt
 ```
-
-## 🚀 Run
-
-1. Preprocess samples with `data_preprocessing.py`
-2. Fine-tune the model using `layoutlm_funsd.ipynb`
-3. Visualize predictions with bounding boxes
-
-## 🧠 Model
-
-Uses `microsoft/layoutlm-base-uncased` from HuggingFace.
