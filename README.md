@@ -12,23 +12,24 @@ Perform question answering over PDF documents using LangChain, FAISS, and GPT-4.
 - 📄 Supports any local PDF
 - 🤖 GPT-4 integration for QA
 
-### 🧷 [`fewshot-doc-classifier`](./fewshot-doc-classifier)
+### 🧷 [`fewshot-document-classifier`](./fewshot-doc-classifier)
 Classify documents using zero-shot or few-shot prompting with OpenAI or open-source LLMs.
 - 🔢 Multi-class document classification
 - 🧠 Few-shot prompt templates
 - 🧪 Comparison with fine-tuned classifiers
 
-### 🏥 [`rag-healthcare`](./rag-healthcare)
-RAG-based QA system for healthcare claims and clinical documents.
-- 📄 QA over patient records, insurance forms
-- 🔍 SentenceTransformer/FAISS retrieval
-- 🤖 GPT-3.5/GPT-4 answers with citations
-
 ### 🧾 [`kv-extraction-funsd`](./kv-extraction-funsd)
-Key-value extraction from scanned forms using LayoutLM and Donut on the FUNSD dataset.
-- 🧠 Layout-aware transformer models
-- 🗂️ OCR + visual layout preprocessing
-- 📊 Evaluation using precision, recall, F1
+Key-value pair extraction from forms using LayoutLM and Donut models.
+- 🖼️ FUNSD dataset for training
+- 🧠 Layout-aware models: LayoutLM & Donut
+- 📊 Eval using precision, recall, F1
+
+### 🧠 [`bert-text-classifier`](./bert-text-classifier)
+Fine-tune BERT on text classification tasks using HuggingFace Transformers.
+- 🧹 Preprocessing with `datasets` and `BertTokenizer`
+- 🏋️ Training with `Trainer` API
+- 📈 Evaluate using accuracy and F1
+- 🔮 Predict on new text samples
 
 ### 🧠 `llama-finetune-colab` *(Planned)*
 Google Colab notebook to fine-tune LLaMA2 with PEFT and LoRA.
@@ -50,7 +51,7 @@ Interactive web UI for querying LLMs with memory and custom tools.
 ---
 
 ## 🔧 Stack
-LangChain · OpenAI · HuggingFace · FAISS · Streamlit · PyPDF · Transformers · Colab · LayoutLM
+LangChain · OpenAI · HuggingFace · FAISS · Streamlit · PyPDF · Transformers · Colab · LayoutLM · Donut · BERT
 
 ---
 
