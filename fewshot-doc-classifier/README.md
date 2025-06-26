@@ -24,6 +24,8 @@ Given a document snippet, classify it into one of the following:
 - [`notebooks/fine_tune_agnews.ipynb`](./notebooks/fine_tune_agnews.ipynb): Tutorial on fine-tuning DistilBERT for text classification using the AG News dataset with Hugging Face `Trainer`.  
   Covers preprocessing, tokenization, training, and evaluation with accuracy and confusion matrix.
   
+[![Read on Medium](https://img.shields.io/badge/Read%20on-Medium-black?logo=medium)](https://medium.com/@zahra.anvari.uta/fine-tune-distilbert-on-ag-news-with-huggingface-google-drive-colab-tutorial-2da24a59394c)
+
 ## 🧪 Example Prompt
 ```text
 Document:
