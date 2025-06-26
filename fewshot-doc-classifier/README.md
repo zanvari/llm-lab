@@ -19,6 +19,11 @@ Given a document snippet, classify it into one of the following:
 - [fewshot_doc_classifier.ipynb](./fewshot_doc_classifier.ipynb) – End-to-end few-shot document classification using GPT-3.5
 - 🟢 [Open in Colab](https://colab.research.google.com/github/zanvari/llm-lab/blob/main/fewshot-doc-classifier/fewshot_doc_classifier.ipynb)
 
+### 🧪 Additional Experiment
+
+- [`notebooks/fine_tune_agnews.ipynb`](./notebooks/fine_tune_agnews.ipynb): Tutorial on fine-tuning DistilBERT for text classification using the AG News dataset with Hugging Face `Trainer`.  
+  Covers preprocessing, tokenization, training, and evaluation with accuracy and confusion matrix.
+  
 ## 🧪 Example Prompt
 ```text
 Document:
