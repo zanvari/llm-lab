@@ -1,21 +1,21 @@
-# 🧠 BERT + Topic Modeling
+# BERT + Topic Modeling
 
 Cluster documents using BERT embeddings and extract semantic topics with KeyBERT.
 
-## 📄 Dataset
+## Dataset
 We use a small synthetic set of 10 documents (`data/documents.json`) covering tech, healthcare, finance, and science.
 
-## 🧠 Features
+## Features
 - Sentence-BERT embeddings (`all-MiniLM-L6-v2`)
 - HDBSCAN clustering
 - Topic keyword extraction with KeyBERT
 - UMAP visualization
 - Silhouette score evaluation (optional)
 
-## 📘 Notebook
+## Notebook
 - [`topic_modeling.ipynb`](./topic_modeling.ipynb): Full pipeline walkthrough
 
-## 📁 Structure
+## Structure
 ```
 bert-topic-modeling/
 ├── data/
@@ -26,10 +26,10 @@ bert-topic-modeling/
 └── requirements.txt
 ```
 
-## 🔧 Requirements
+## Requirements
 See `requirements.txt` for dependencies.
 
-## 🚀 Future Ideas
+## Future Ideas
 - Use HDBSCAN soft cluster probabilities
 - Cluster labeling via large LLMs
 - Upload your own corpora
