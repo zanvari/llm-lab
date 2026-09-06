@@ -1,4 +1,4 @@
-
+[
   {
     "id": "classification_zero_shot",
     "task": "Classify the following text as Positive, Neutral, or Negative:",
