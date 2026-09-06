@@ -1,16 +1,16 @@
-# 🔐 PII Detection
+# PII Detection
 
 This project detects Personally Identifiable Information (PII) in text using both traditional NER methods and LLM-based prompts.
 
-## 🧠 Methods
+## Methods
 - **spaCy NER** for rule-based entity recognition
 - **LLM (OpenAI GPT)** for zero-shot PII detection
 - *(Optional)* HuggingFace transformer-based NER models
 
-## 📘 Notebook
+## Notebook
 - [`pii_detection.ipynb`](./pii_detection.ipynb): Compare traditional and LLM-based PII detection
 
-## 📂 Structure
+## Structure
 ```
 pii-detection/
 ├── data/
@@ -21,11 +21,11 @@ pii-detection/
 └── requirements.txt
 ```
 
-## 📦 Requirements
+## Requirements
 Install with:
 ```bash
 pip install -r requirements.txt
 ```
 
-## ✅ Goal
+## Goal
 Compare conventional and LLM-powered PII detection on real-world samples.
