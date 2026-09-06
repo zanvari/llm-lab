@@ -1,8 +1,8 @@
-# 🧾 Key-Value Extraction with LayoutLM and Donut
+# Key-Value Extraction with LayoutLM and Donut
 
 This project demonstrates how to preprocess the FUNSD dataset and fine-tune or evaluate layout-aware models like LayoutLM and Donut for extracting key-value pairs from scanned forms.
 
-## 📚 Highlights
+## Highlights
 
 - ✅ Preprocessing for FUNSD annotations
 - ✅ Normalized bounding boxes
@@ -11,7 +11,7 @@ This project demonstrates how to preprocess the FUNSD dataset and fine-tune or e
 - ✅ Donut inference without OCR
 - ✅ Inference + bounding box visualization
 
-## 🧪 Dataset
+## Dataset
 
 We use the [FUNSD dataset](https://guillaumejaume.github.io/FUNSD/), a benchmark for form understanding with:
 - Text annotations
@@ -19,18 +19,18 @@ We use the [FUNSD dataset](https://guillaumejaume.github.io/FUNSD/), a benchmark
 - Entity labels (key, value, other)
 - Links between key-value pairs
 
-## 🤖 Models
+## Models
 
-### 📐 LayoutLM
+### LayoutLM
 - Token classification model that uses layout + text
 - Fine-tuned using HuggingFace Trainer
 
-### 🍩 Donut
+### Donut
 - OCR-free vision-to-sequence model
 - Trained for document QA
 - Inference using prompt: "What are the key fields and their values?"
 
-## 🛠️ Structure
+## Structure
 
 ```
 kv-extraction-funsd/
@@ -43,7 +43,7 @@ kv-extraction-funsd/
 │   └── donut_inference.ipynb
 ```
 
-## 🧪 Run
+## Run
 
 ### LayoutLM
 ```bash
@@ -55,7 +55,7 @@ kv-extraction-funsd/
 python donut_infer.py --image data/images/0000971160.png
 ```
 
-## 🔧 Setup
+## Setup
 
 ```bash
 pip install -r requirements.txt
