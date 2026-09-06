@@ -1,4 +1,4 @@
-## 📘 Notebooks
+## Notebooks
 
 ### `fine_tune_agnews.ipynb` – Fine-Tuning DistilBERT on AG News
 
@@ -10,8 +10,8 @@ This tutorial-style notebook demonstrates how to fine-tune a pretrained `distilb
 - Trains DistilBERT using Hugging Face's `Trainer`
 - Evaluates with `classification_report` and confusion matrix
 
-📂 Path: `notebooks/fine_tune_agnews.ipynb`
+Path: `notebooks/fine_tune_agnews.ipynb`
 
-📊 Model: `DistilBERT` (4 classes: World, Sports, Business, Sci/Tech)  
-🧠 Dataset: [AG News](https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset)  
+Model: `DistilBERT` (4 classes: World, Sports, Business, Sci/Tech)  
+Dataset: [AG News](https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset)  
 
