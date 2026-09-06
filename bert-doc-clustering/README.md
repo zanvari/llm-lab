@@ -1,20 +1,20 @@
-# 🗂️ BERT Document Clustering
+# BERT Document Clustering
 
 Cluster documents using Sentence-BERT embeddings and visualize them using UMAP.
 
-## 📄 Dataset
+## Dataset
 A small set of 10 example documents (`data/documents.json`) covering topics from healthcare to tech and finance.
 
-## 🧠 Features
+## Features
 - Sentence-BERT embeddings (`all-MiniLM-L6-v2`)
 - KMeans and Agglomerative clustering
 - UMAP visualization in 2D
 - Silhouette score for cluster quality
 
-## 📘 Notebook
+## Notebook
 - [`clustering.ipynb`](./clustering.ipynb): Full clustering walkthrough
 
-## 📁 Structure
+## Structure
 ```
 bert-doc-clustering/
 ├── data/
@@ -25,10 +25,10 @@ bert-doc-clustering/
 └── requirements.txt
 ```
 
-## 🔧 Requirements
+## Requirements
 See `requirements.txt` for dependencies.
 
-## 🧪 Future Ideas
+## Future Ideas
 - Plug in custom corpora
 - Automatic topic labeling of clusters
 - Export cluster groupings
