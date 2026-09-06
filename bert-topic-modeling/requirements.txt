@@ -4,4 +4,4 @@ hdbscan
 umap-learn
 scikit-learn
 matplotlib
-seaborn
+
