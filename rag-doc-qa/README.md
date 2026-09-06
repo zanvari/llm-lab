@@ -4,7 +4,7 @@
 
 This project performs Question Answering over PDF documents using LangChain, FAISS, and GPT-4.
 
-## 📄 How it works
+## How it works
 - Loads single or multiple PDFs
 - Splits them into chunks
 - Embeds with OpenAI or HuggingFace
@@ -12,29 +12,29 @@ This project performs Question Answering over PDF documents using LangChain, FAI
 - Retrieves chunks using Similarity or MMR
 - Generates answers using OpenAI GPT
 
-## 🛠 Setup
+## Setup
 ```bash
 pip install -r requirements.txt
 ```
 
 Add your PDF(s) to the `data/` folder.
 
-## 🚀 Run
+## Run
 ```bash
 python app.py  # basic run
 ```
 
-## 📘 Notebook
+## Notebook
 - [rag-doc-qa-explained.ipynb](./rag-doc-qa-explained.ipynb) – Full walkthrough with markdown explanations, embeddings, retrievers, and LLMs
-- 🟢 [Open in Colab](https://colab.research.google.com/github/zanvari/llm-lab/blob/main/rag-doc-qa/rag-doc-qa-explained.ipynb)
+- [Open in Colab](https://colab.research.google.com/github/zanvari/llm-lab/blob/main/rag-doc-qa/rag-doc-qa-explained.ipynb)
 
-## 💬 Streamlit App
+## Streamlit App
 Run the interactive web UI:
 ```bash
 streamlit run streamlit_app.py
 ```
 
-## 🧪 Evaluate with Test Queries
+## Evaluate with Test Queries
 Run all questions listed in `queries.txt` and log answers:
 ```bash
 python test_queries.py
@@ -47,14 +47,14 @@ Who are the parties involved?
 What is the monthly fee?
 ```
 
-## ✅ Features
+## Features
 - Single and multi-document support
 - Multiple embedding models (OpenAI, HuggingFace)
 - Similarity vs. MMR retrievers
 - Streamlit interface
 - Automated query evaluation
 
-## 🔧 Technologies Used
+## Technologies Used
 LangChain · OpenAI · HuggingFace · FAISS · Chroma · Streamlit · PyPDF · Transformers
 
 ## 📄 License
