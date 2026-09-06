@@ -4,12 +4,12 @@ This project demonstrates how to preprocess the FUNSD dataset and fine-tune or e
 
 ## Highlights
 
-- ✅ Preprocessing for FUNSD annotations
-- ✅ Normalized bounding boxes
-- ✅ HuggingFace-compatible `Dataset` class
-- ✅ Fine-tuning `LayoutLM` with `Trainer`
-- ✅ Donut inference without OCR
-- ✅ Inference + bounding box visualization
+- Preprocessing for FUNSD annotations
+- Normalized bounding boxes
+- HuggingFace-compatible `Dataset` class
+- Fine-tuning `LayoutLM` with `Trainer`
+- Donut inference without OCR
+- Inference + bounding box visualization
 
 ## Dataset
 
