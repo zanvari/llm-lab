@@ -1,15 +1,15 @@
-# 🧪 Prompt Engineering Playground
+# Prompt Engineering Playground
 
 This project explores different prompt styles and their effect on LLM outputs. It provides a simple interface to experiment with:
 
-- 🔹 Zero-shot prompts
-- 🔸 Few-shot prompts
-- 🔍 Chain-of-thought reasoning
+- Zero-shot prompts
+- Few-shot prompts
+- Chain-of-thought reasoning
 
-## 📘 Notebook
+## Notebook
 - [`prompt_playground.ipynb`](./prompt_playground.ipynb): Compare outputs from multiple LLMs on various prompt strategies.
 
-## 📂 Structure
+## Structure
 ```
 prompt-playground/
 ├── data/
@@ -20,12 +20,12 @@ prompt-playground/
 └── requirements.txt
 ```
 
-## 🧠 Models Used (Simulated)
+## Models Used (Simulated)
 - OpenAI (e.g., GPT-4)
 - Mistral
 - LLaMA
 
 You can integrate real APIs by replacing the simulated `query_*` functions in the notebook.
 
-## 📦 Requirements
+## Requirements
 See `requirements.txt` for dependencies.
