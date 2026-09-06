@@ -1,10 +1,10 @@
-# 🏷️ BERT NER Fine-tuning
+# BERT NER Fine-tuning
 
 Fine-tune BERT for Named Entity Recognition (NER) using HuggingFace and the CoNLL-2003 dataset.
 
 ---
 
-## 📁 Structure
+## Structure
 - `notebooks/ner_finetune.ipynb` – Main notebook for training + evaluation
 - `notebooks/ner_visualize.ipynb` – Visualize model predictions on custom text
 - `train.py` – Script to fine-tune BERT
@@ -15,7 +15,7 @@ Fine-tune BERT for Named Entity Recognition (NER) using HuggingFace and the CoNL
 
 ---
 
-## ✅ Goals
+## Goals
 - Load and preprocess CoNLL-2003 dataset
 - Fine-tune BERT for token classification
 - Evaluate with precision, recall, F1
@@ -23,19 +23,19 @@ Fine-tune BERT for Named Entity Recognition (NER) using HuggingFace and the CoNL
 
 ---
 
-## 🧪 Models
+## Models
 - `bert-base-cased` (used in CoNLL-2003 benchmarks)
 
 ---
 
-## 🔧 Setup
+## Setup
 ```bash
 pip install -r requirements.txt
 ```
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 - transformers
 - datasets
 - seqeval
