@@ -3,4 +3,4 @@ sentence-transformers
 faiss-cpu
 scikit-learn
 matplotlib
-
+pandas
