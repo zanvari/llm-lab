@@ -1,16 +1,16 @@
-# 📚 Summarization Benchmarking
+# Summarization Benchmarking
 
 This project compares extractive and abstractive summarization methods using both traditional NLP and modern LLMs.
 
-## 🧪 Techniques
+## Techniques
 - **Extractive**: TextRank with spaCy + pytextrank
 - **Abstractive**: FLAN-T5 via HuggingFace Transformers
 - **Evaluation**: ROUGE metrics for output comparison
 
-## 📘 Notebook
+## Notebook
 - [`summarization_benchmark.ipynb`](./summarization_benchmark.ipynb)
 
-## 📂 Structure
+## Structure
 ```
 summarization-benchmark/
 ├── data/
@@ -21,11 +21,11 @@ summarization-benchmark/
 └── requirements.txt
 ```
 
-## 📦 Requirements
+## Requirements
 Install with:
 ```bash
 pip install -r requirements.txt
 ```
 
-## ✅ Goal
+## Goal
 Understand trade-offs between extractive vs. abstractive summarization for real-world documents.
